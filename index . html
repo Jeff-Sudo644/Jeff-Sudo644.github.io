@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: white;
+      color: black;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, I'm [victor Jeff Otieno]</h1>
+  <p>Today is Saturday 17th May 2025, and it's my first time coding using a phone or rather just coding since I have never done it practically.So right now I’m learning to build websites on my phone since I have no capital to purchase a laptop or a machine!</p>
+  
+  <button onclick="toggleTheme()">Switch Theme</button>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      if (body.style.backgroundColor === "black") {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+      } else {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+      }
+    }
+  </script>
+</body>
+<img src="https://via.placeholder.com/150" alt="My Photo">
